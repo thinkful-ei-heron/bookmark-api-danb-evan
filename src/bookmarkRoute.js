@@ -38,9 +38,9 @@ bookmarkRouter
     const { id } = req.params;
     const bookmarkToDelete = STORE.find(bookmark => bookmark.id === id);
     if(!bookmarkToDelete) return res.status(400).json({error: 'there is no bookmark for that'});
-    STORE = STORE.filter(bookmark => bookmark !== bookmarkToDelete);
+    const currentBookmarkIndex = STORE.indexOf(bookmarkToDelete);
+    STORE.splice(currentBookmarkIndex, 1);
     res.status(200).json({message: `Deleted bookmark with id: ${id}`});
-
   });
 
 module.exports = bookmarkRouter;
