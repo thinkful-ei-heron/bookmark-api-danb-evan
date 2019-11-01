@@ -9,7 +9,6 @@ const errorHandler = require('./errorHandler');
 const bookmarkRoute = require('./bookmarkRoute');
 
 const app = express();
-
 const morganOption = (NODE_ENV === 'production')
   ? 'tiny'
   : 'common';
