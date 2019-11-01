@@ -38,6 +38,7 @@ bookmarkRouter
     STORE.splice(currentBookmarkIndex, 1);
     res.status(200).json({message: `Deleted bookmark with id: ${b_id}`});
   })
+//PATCH bookmark
   .patch(bodyParser, (req, res) => {
     const { url, desc, rating } = req.body;
     const intRating = parseInt(rating);
