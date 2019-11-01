@@ -28,7 +28,7 @@ bookmarkRouter
   .post(bodyParser, (req, res) => {
     const { url, desc, rating } = req.body;
     const intRating = parseInt(rating);
-    validateInput(res, req, url, desc, rating, intRating)
+    validateInput(res, req, url, desc, rating, intRating);
     const newItem = { id: uuid(), url, desc, intRating };
     STORE.push(newItem);
     res.status(201).json(newItem);
@@ -56,7 +56,7 @@ bookmarkRouter
     const intRating = parseInt(rating);
     const { b_id } = req.params;
     const bookmark = STORE.find(bookmark => bookmark.id === b_id);
-    validateInput(res, req, url, desc, rating, intRating, bookmark)
+    validateInput(res, req, url, desc, rating, intRating, bookmark);
     STORE.splice(STORE.indexOf(bookmark), 1);
     const patchedItem = { id: b_id, url, desc, intRating };
     STORE.push(patchedItem);
