@@ -3,6 +3,7 @@ let STORE = require('./STORE');
 const bookmarkRouter = express.Router();
 const bodyParser = express.json();
 const uuid = require('uuid');
+const validUrl = require('valid-url');
 
 
 bookmarkRouter
@@ -16,6 +17,7 @@ bookmarkRouter
     const { url, desc, rating } = req.body;
     const intRating = parseInt(rating);
     if(!url || !desc || !rating) return res.status(400).json({error: 'You must specify a \'url\', \'desc\' and \'rating\''});
+    if(!validUrl.isUri(url)) return res.status(400).json({error: 'URL is invalid'})
     if(url.length > 256) return res.status(400).json({error: 'url cannot be larget then 256 char'});
     if(desc.length > 512) return res.status(400).json({error: 'description cannot be larger then 512 char'});
     if(Number.isNaN(intRating)) return res.status(400).json({error: 'rating must be a number'});
