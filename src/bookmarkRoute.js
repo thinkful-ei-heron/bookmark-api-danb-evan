@@ -6,17 +6,17 @@ const uuid = require('uuid');
 const validateInput = require('./validateInput');
 
 bookmarkRouter
-//GET bookmarks
+//GET bookmark
   .route('/bookmarks')
   .get((req, res) => {
     res.json(STORE);
   })
 //POST bookmark
   .post(bodyParser, (req, res) => {
+    const newBookmark = true
     const { url, desc, rating } = req.body;
-    const intRating = parseInt(rating);
-    validateInput(res, req, url, desc, rating, intRating);
-    const newItem = { id: uuid(), url, desc, intRating };
+    validateInput(res, req, url, desc, rating, newBookmark);
+    const newItem = { id: uuid(), url, desc, rating };
     STORE.push(newItem);
     res.status(201).json(newItem);
   });
@@ -41,12 +41,11 @@ bookmarkRouter
 //PATCH bookmark
   .patch(bodyParser, (req, res) => {
     const { url, desc, rating } = req.body;
-    const intRating = parseInt(rating);
     const { b_id } = req.params;
     const bookmark = STORE.find(bookmark => bookmark.id === b_id);
-    validateInput(res, req, url, desc, rating, intRating, bookmark);
+    validateInput(res, req, url, desc, rating, bookmark);
     STORE.splice(STORE.indexOf(bookmark), 1);
-    const patchedItem = { id: b_id, url, desc, intRating };
+    const patchedItem = { id: b_id, url, desc, rating };
     STORE.push(patchedItem);
     res.status(201).json(patchedItem);
   });

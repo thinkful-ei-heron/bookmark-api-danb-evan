@@ -1,5 +1,5 @@
 const { NODE_ENV } = require('./config');
-const logger = require('./logging')
+const logger = require('./logging');
 
 function errorHandler(error, req, res, next) { //eslint-disable-line no-unused-vars
   let response;
