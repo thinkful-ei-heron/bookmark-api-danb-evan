@@ -10,3 +10,181 @@
 {"message":"Cannot set headers after they are sent to the client","level":"error"}
 {"message":"Cannot set headers after they are sent to the client","level":"error"}
 {"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"BookmarkService is not a function","level":"error"}
+{"message":"Cannot read property 'select' of undefined","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"stuff is not defined","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"Converting circular structure to JSON","level":"error"}
+{"message":"stuff is not defined","level":"error"}
+{"message":"req.app.get(...).then is not a function","level":"error"}
+{"message":"req.app.get(...).then is not a function","level":"error"}
+{"message":"req.app.get(...).then is not a function","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"Route.get() requires a callback function but got a [object String]","level":"error"}
+{"message":"db.into is not a function","level":"error"}
+{"message":"db.into is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"db.insert is not a function","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"url\") values ($1, $2, $3) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"url\") values ($1, $2, $3) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"title is not defined","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, $2, $3) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, $2, $3) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, $2, $3) returning * - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, $2, $3) - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"desc\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, $2, $3) - column \"desc\" of relation \"bookmarks\" does not exist","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - invalid input syntax for integer: \"\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - invalid input syntax for integer: \"s\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, $1, DEFAULT, $2) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"select * from \"bookmarks\" - relation \"bookmarks\" does not exist","level":"error"}
+{"message":"select * from \"bookmarks\" - relation \"bookmarks\" does not exist","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"res.status is not a function","level":"error"}
+{"message":"res.status is not a function","level":"error"}
+{"message":"res is not defined","level":"error"}
+{"message":"res.status is not a function","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"res.status(...).json(...).stop is not a function","level":"error"}
+{"message":"res.status(...).json(...).stop is not a function","level":"error"}
+{"message":"res.status(...).json(...).stop is not a function","level":"error"}
+{"message":"res.status(...).json(...).stop is not a function","level":"error"}
+{"message":"res.status(...).json(...).stop is not a function","level":"error"}
+{"message":"res.status(...).json(...).stop is not a function","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"status is not defined","level":"error"}
+{"message":"status is not defined","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values ($1, $2, $3, $4) returning * - duplicate key value violates unique constraint \"bookmarks_pkey\"","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"insert into \"bookmarks\" (\"description\", \"rating\", \"title\", \"url\") values (DEFAULT, DEFAULT, DEFAULT, DEFAULT) returning * - null value in column \"title\" violates not-null constraint","level":"error"}
+{"message":"Cannot read property 'transfer-encoding' of undefined","level":"error"}
